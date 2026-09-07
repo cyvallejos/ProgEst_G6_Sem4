@@ -1,3 +1,4 @@
+# El pago se retorna para poder utilizarlo fuera de la función.
 def calcular_pago(horas, tarifa):
 	pago = horas * tarifa
 	print("Pago dentro de la función: C$", pago)

@@ -1,3 +1,4 @@
+#Corrección: calcular_iva está fuera de procesar_venta para poder reutilizarse.
 def calcular_iva(subtotal):
 	return subtotal * 0.15
 
