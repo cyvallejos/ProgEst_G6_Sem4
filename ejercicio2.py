@@ -1,4 +1,4 @@
-# Se eliminó global y el contador se actualiza con parámetros y retorno.
+#Se eliminó global y el contador se actualiza con parámetros y retorno.
 def registrar_venta(ventas_registradas):
 	ventas_registradas += 1
 	print("Venta registrada")
