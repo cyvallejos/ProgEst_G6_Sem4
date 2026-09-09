@@ -13,15 +13,15 @@ def clasificar_nota(note):
 
 
 def programa():
-    notas = []
+    notes = []
     cantidad = int(input("¿Cuántas notas desea ingresar? "))
 
     for i in range(cantidad):
         note = float(input(f"Ingrese la nota {i + 1} (1-100): "))
-        notas.append(note)
+        notes.append(note)
 
     print("\nTodas las notas:")
-    for note in notas:
+    for note in notes:
         print(f"{note} - {clasificar_nota(note)}")
 
 
