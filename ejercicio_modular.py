@@ -2,11 +2,11 @@
 def clasificar_nota(note):
     if 1 <= note <= 59:
         return "Aprendizaje inicial"
-    elif note <= 69:
+    elif 60 <= note <= 69:
         return "Aprendizaje fundamental"
-    elif note <= 89:
+    elif 70 <= note <= 89:
         return "Aprendizaje satisfactorio"
-    elif note <= 100:
+    elif 90 <= note <= 100:
         return "Aprendizaje avanzado"
     else:
         return "Nota inválida"
