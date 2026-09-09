@@ -1,5 +1,5 @@
 #El siguiente ejercicio pide leer n cantidad de notas, decir si es aprendizaje incial, fundamental, satisfactorio, avanzado y muestra todas las notas.
-def clasificar_nota(note):
+def clasificar_note(note):
     if 1 <= note <= 59:
         return "Aprendizaje inicial"
     elif 60 <= note <= 69:
@@ -22,7 +22,7 @@ def programa():
 
     print("\nTodas las notas:")
     for note in notes:
-        print(f"{note} - {clasificar_nota(note)}")
+        print(f"{note} - {clasificar_note(note)}")
 
 
 programa()
